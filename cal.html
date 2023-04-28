@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CALCULADORA</title>
+    <link rel="stylesheet" href="./cal.css">
+</head>
+<body>
+    <div id="contenido">
+        <input class="caja" type="text" placeholder="Número 1" id="val1">
+        <div id="operador"></div>
+        <input class="caja" type="text" placeholder="Número 2" id="val2">
+        <div id="igual">=</div>
+        <input class="caja" type="text" placeholder="Resultado" id="res">
+        <div class="boton" onclick="suma()">SUMA</div>
+        <div class="boton" onclick="resta()">RESTA</div>
+        <div class="boton" onclick="divi()">DIVISIÓN</div>
+        <div class="boton" onclick="multi()">MULTIPLICA</div>
+    </div>
+    <script src="./cal.js"></script>
+</body>
+</html>
